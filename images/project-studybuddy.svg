@@ -1,0 +1,69 @@
+<svg viewBox="0 0 800 500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Illustration of connected nodes and people, representing a peer-to-peer tutoring network">
+  <defs>
+    <linearGradient id="sbBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#20222e"/>
+      <stop offset="100%" stop-color="#141315"/>
+    </linearGradient>
+    <radialGradient id="sbGlow" cx="50%" cy="45%" r="65%">
+      <stop offset="0%" stop-color="#c9c3dd" stop-opacity="0.14"/>
+      <stop offset="100%" stop-color="#c9c3dd" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="800" height="500" fill="url(#sbBg)"/>
+  <rect width="800" height="500" fill="url(#sbGlow)"/>
+
+  <!-- connecting lines between nodes -->
+  <g stroke="#c9c3dd" stroke-width="1.5" opacity="0.4">
+    <line x1="400" y1="250" x2="180" y2="140"/>
+    <line x1="400" y1="250" x2="620" y2="130"/>
+    <line x1="400" y1="250" x2="150" y2="360"/>
+    <line x1="400" y1="250" x2="640" y2="370"/>
+    <line x1="400" y1="250" x2="400" y2="90"/>
+    <line x1="180" y1="140" x2="150" y2="360"/>
+    <line x1="620" y1="130" x2="640" y2="370"/>
+  </g>
+
+  <!-- outer nodes -->
+  <g>
+    <circle cx="180" cy="140" r="26" fill="#2b292b" stroke="#dac3a6" stroke-width="2"/>
+    <circle cx="180" cy="132" r="8" fill="#dac3a6"/>
+    <path d="M164 156 a16 14 0 0 1 32 0" fill="#dac3a6"/>
+  </g>
+  <g>
+    <circle cx="620" cy="130" r="26" fill="#2b292b" stroke="#c9c3dd" stroke-width="2"/>
+    <circle cx="620" cy="122" r="8" fill="#c9c3dd"/>
+    <path d="M604 146 a16 14 0 0 1 32 0" fill="#c9c3dd"/>
+  </g>
+  <g>
+    <circle cx="150" cy="360" r="22" fill="#2b292b" stroke="#c8c5d0" stroke-width="2"/>
+    <circle cx="150" cy="353" r="7" fill="#c8c5d0"/>
+    <path d="M136 374 a14 12 0 0 1 28 0" fill="#c8c5d0"/>
+  </g>
+  <g>
+    <circle cx="640" cy="370" r="22" fill="#2b292b" stroke="#dac3a6" stroke-width="2"/>
+    <circle cx="640" cy="363" r="7" fill="#dac3a6"/>
+    <path d="M626 384 a14 12 0 0 1 28 0" fill="#dac3a6"/>
+  </g>
+  <g>
+    <circle cx="400" cy="90" r="18" fill="#2b292b" stroke="#c9c3dd" stroke-width="2"/>
+    <circle cx="400" cy="85" r="6" fill="#c9c3dd"/>
+    <path d="M389 100 a11 9 0 0 1 22 0" fill="#c9c3dd"/>
+  </g>
+
+  <!-- center node (hub / tutor) -->
+  <g>
+    <circle cx="400" cy="250" r="46" fill="#3a393a" stroke="#c9c3dd" stroke-width="3"/>
+    <circle cx="400" cy="236" r="15" fill="#c9c3dd"/>
+    <path d="M370 278 a30 26 0 0 1 60 0" fill="#c9c3dd"/>
+  </g>
+
+  <!-- world-map style dots -->
+  <g fill="#48464c">
+    <circle cx="90" cy="240" r="3"/>
+    <circle cx="120" cy="270" r="2"/>
+    <circle cx="700" cy="250" r="3"/>
+    <circle cx="730" cy="220" r="2"/>
+    <circle cx="250" cy="420" r="2.5"/>
+    <circle cx="550" cy="430" r="2.5"/>
+  </g>
+</svg>
